@@ -15,14 +15,14 @@ class _ConversionPageState extends State<ConversionPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Currency Converter',
+      title: 'CryptoCurrency Converter',
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
       home: Scaffold(
           appBar: AppBar(
             centerTitle: true,
-            title: const Text('Currency Converter'),
+            title: const Text('CryptoCurrency Converter'),
           ),
           backgroundColor: Colors.teal[100],
           body: Column(
