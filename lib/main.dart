@@ -35,7 +35,7 @@ class _SplashPageState extends State<SplashPage> {
           children: [
             Image.asset('assets/images/currencies.png'),
             const Text(
-              "CURRENCY CONVERTER",
+              "CryptoCurrency Converter",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 40,
